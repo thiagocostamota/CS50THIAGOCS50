@@ -1,0 +1,34 @@
+%message {
+    font-size: 20px;
+	margin-left: 40px;
+	text-align: left;
+	margin-right: 40px;
+}
+
+.numerados {
+    @extend %message;
+    font-size: 20px;
+	margin-left: 40px;
+	text-align: left;
+	margin-right: 40px;
+    
+}
+
+.numerados2{
+    @extend %message;
+    font-size: 20px;
+	margin-left: 40px;
+	text-align: left;
+	margin-right: 40px;
+}
+
+%tabela{
+	border: black;
+
+}
+.col-sm{
+	@extend %tabela;
+	}
+.container{
+	@extend %tabela;
+}
